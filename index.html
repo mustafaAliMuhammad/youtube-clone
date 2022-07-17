@@ -1,31 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Youtube.com clone</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style/style.css">
     </head>
     <body>
-        <!--Search bar -->
-        <input class="search-box" type="text" placeholder="Search">
-        <!--first video-->
-        <div class="video-preview">
-                <img src="./hq720.webp" alt="">
-                <div class="profile-photo-container"><img class="profile-photo" src="./channels4_profile.jpg"></div>
-                <div class="video-details">
-                    <div class="video-title">How to ACTUALLY Get an Entry Level Programming Job</div>
-                    <div class="channel-name">ForrestKnight</div>
-                    <div class="views">315k view &#183; 7Months</div>
+        <header class="main-header">
+            <div class="left-section">
+                <div class="menue">
+                    <img src="./images/menue.png" alt="extra icon appears as three lines in top of each other">
                 </div>
-        </div>
-        <!--second video-->
-        <div class="video-preview">
-            <img src="./hqdefault.webp"  alt="">
-            <div class="profile-photo-container"><img class="profile-photo" src="./unnamed.jpg"></div>
-            <div class="video-details">
-                <div class="video-title">Why I quit gaming... #grindreel</div>
-                <div class="channel-name">Joshua Fluke</div>
-                <div class="views">360K view &#183; 2Years</div>
+                <div class="youtube-logo">
+                    <img src="./images/youtube-logo.png" alt="youtube logo with red color">
+                </div>
             </div>
-        </div>
+            <form class="middle-section">
+                <div class="search-box"><input type="text" placeholder="Search"></div>
+                <div class="search-button"><img src="./images/search.png"></div>
+                <div class="vocal-search-button"></div>
+            </form>
+            <div class="right-section">
+                <div class="new-video"><img src="./images/new-video.png"></div>
+                <div class="notification-bell"><img src="./images/bell.png" alt="youtube notification bell"></div>
+                <div class="channel-photo"><img src="./images/channe_profile.jpg" alt="account profile image"></div>
+            </div>
+        </header>
+        <main>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/hqdefault.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/unnamed.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">Why I quit gaming... #grindreel</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">Joshua Fluke</p>
+                            <P class="video-views">361K View &#183; 2 Years</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/hq720.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/channels4_profile.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">How to ACTUALLY Get an Entry Level Programming Job</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">ForrestKnight</p>
+                            <p class="video-views">316K View &#183 7 Months</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/slipknot-vid.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/slipknot-profile.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">Slipknot - The Devil In I [OFFICIAL VIDEO]</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">Slipknot</p>
+                            <P class="video-views">361M View &#183; 7 Years</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/8bit-vid.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/8bit-profile.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">Lets Build - 8 Bit Computer Part 1 Introduction</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">madmaxx</p>
+                            <p class="video-views">258K View &#183 9 Years</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/mark-vid.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/mark-profile.jpg  "></div>
+                    <div class="text-section">
+                        <div class="video-title">3 SCARY GAMES #42</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">Markiplier</p>
+                            <P class="video-views">4M View &#183; 2 Years</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/vm-vid.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/vm-profile.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">NetworkChuck</p>
+                            <p class="video-views">4.8M View &#183 1 Year</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/hqdefault.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/unnamed.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">Why I quit gaming... #grindreel</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">Joshua Fluke</p>
+                            <P class="video-views">361K View &#183; 2 Years</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/hq720.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/channels4_profile.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">How to ACTUALLY Get an Entry Level Programming Job</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">ForrestKnight</p>
+                            <p class="video-views">316K View &#183 7 Months</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/slipknot-vid.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/slipknot-profile.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">Slipknot - The Devil In I [OFFICIAL VIDEO]</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">Slipknot</p>
+                            <P class="video-views">361M View &#183; 7 Years</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/8bit-vid.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/8bit-profile.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">Lets Build - 8 Bit Computer Part 1 Introduction</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">madmaxx</p>
+                            <p class="video-views">258K View &#183 9 Years</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/mark-vid.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/mark-profile.jpg  "></div>
+                    <div class="text-section">
+                        <div class="video-title">3 SCARY GAMES #42</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">Markiplier</p>
+                            <P class="video-views">4M View &#183; 2 Years</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-thumbnail"><img src="./images/vm-vid.webp"></div>
+                <div class="buttom-section">
+                    <div class="channel-photo"><img src="./images/vm-profile.jpg"></div>
+                    <div class="text-section">
+                        <div class="video-title">you need to learn Virtual Machines RIGHT NOW!! (Kali Linux VM, Ubuntu, Windows)</div>
+                        <div class="video-analises">
+                            <p class="video-channel-name">NetworkChuck</p>
+                            <p class="video-views">4.8M View &#183 1 Year</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
